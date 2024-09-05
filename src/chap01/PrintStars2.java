@@ -24,6 +24,7 @@ public class PrintStars2 {
         for(int i=0;i<n/w;i++)
             System.out.println("*".repeat(w));
 
+        // 균일한 개수로 찍은 거 나머지 떨거지 부분
         int rest = n % w;
         if(rest != 0)
             System.out.println("*".repeat(rest));
